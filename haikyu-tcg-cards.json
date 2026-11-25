@@ -1,0 +1,32 @@
+{
+  "HV-P01-001-SR": {
+    "id": "HV-P01-001-SR",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "EXEMPLE - à remplacer",
+        "type": "Character",
+        "image": "https://github.com/TON_PSEUDO/TON_REPO/blob/main/Card%20Database/HV-P01-001-EN-SR.webp?raw=true",
+        "isHorizontal": false,
+        "effet": "Texte de la carte",
+        "serve": 3,
+        "block": 2,
+        "receive": 2,
+        "toss": 1,
+        "attack": 4
+      }
+    },
+    "name": "EXEMPLE - à remplacer",
+    "type": "Character",
+    "rarity": "SR",
+    "set": "HV-P01",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "WS",
+    "serve": 3,
+    "block": 2,
+    "receive": 2,
+    "toss": 1,
+    "attack": 4
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "name": "Haikyu!! Vobaca!! BREAK",
+  "deckBuilding": {
+    "mainFilters": [
+      "Character",
+      "Event",
+      "affiliation"
+    ],
+    "formats": [
+      {
+        "title": "Standard format",
+        "gameplay": "Standard",
+        "customCategories": [
+          "Character",
+          "Event"
+        ],
+        "deckRuleset": "Standard"
+      }
+    ],
+    "deckRulesets": {
+      "Standard": {
+        "general": {
+          "min": 40,
+          "max": 40,
+          "maxPerCard": 40
+        },
+        "categories": [
+          {
+            "category": "Event",
+            "min": 0,
+            "max": 8
+          }
+        ]
+      }
+    }
+  },
+  "gameplay": {
+    "Standard": {
+      "mulligan": {
+        "startingHandSize": 6,
+        "mulliganCount": {
+          "max": 1
+        },
+        "mulliganCycle": {
+          "steps": [
+            "toBottom",
+            "shuffle",
+            "draw"
+          ],
+          "selectionRange": {
+            "min": 0,
+            "max": 6
+          }
+        }
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false
+      },
+      "draggableTokens": [],
+      "countersStartingValues": [
+        {
+          "id": "Sets",
+          "name": "Sets gagnés",
+          "startingValue": 0
+        },
+        {
+          "id": "Offense",
+          "name": "Offense Point",
+          "startingValue": 0
+        },
+        {
+          "id": "Defense",
+          "name": "Defense Point",
+          "startingValue": 0
+        }
+      ],
+      "sections": {
+        "customSections": [
+          "Serve",
+          "BlockSide",
+          "BlockCenter",
+          "Receive",
+          "Toss",
+          "Attack",
+          "Event",
+          "SetCards"
+        ],
+        "layout": {
+          "direction": "column",
+          "isSymmetricalForOpponents": true,
+          "content": [
+            {
+              "direction": "row",
+              "style": {
+                "flex": "1"
+              },
+              "content": [
+                {
+                  "section": "Event",
+                  "style": {
+                    "flex": "1"
+                  }
+                },
+                {
+                  "section": "SetCards",
+                  "style": {
+                    "flex": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": {
+                "flex": "2"
+              },
+              "content": [
+                {
+                  "section": "Serve",
+                  "style": {
+                    "flex": "1"
+                  }
+                },
+                {
+                  "section": "BlockSide",
+                  "style": {
+                    "flex": "1"
+                  }
+                },
+                {
+                  "section": "BlockCenter",
+                  "style": {
+                    "flex": "1"
+                  }
+                },
+                {
+                  "section": "Receive",
+                  "style": {
+                    "flex": "1"
+                  }
+                },
+                {
+                  "section": "Toss",
+                  "style": {
+                    "flex": "1"
+                  }
+                },
+                {
+                  "section": "Attack",
+                  "style": {
+                    "flex": "1"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [],
+        "sectionsDict": {
+          "Hand": {
+            "isHidden": "opponent-only",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "Deck": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "NONE"
+          },
+          "Discard": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "NONE"
+          },
+          "Stack": {
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE"
+          },
+          "Exile": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "NONE"
+          },
+          "ExileHidden": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "NONE"
+          },
+          "Serve": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "BlockSide": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "BlockCenter": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "Receive": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "Toss": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "Attack": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "Event": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "SetCards": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          }
+        },
+        "autoPlayFromHand": {
+          "Event": "Event"
+        },
+        "autoPlayFromStack": {}
+      }
+    }
+  },
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/TON_PSEUDO/TON_REPO/refs/heads/main/haikyu-vobaca-cards.json",
+    "cardBack": "https://github.com/TON_PSEUDO/TON_REPO/blob/main/card_back.png?raw=true"
+  },
+  "cardRotation": "0",
+  "defaultRessources.backgrounds": "https://github.com/TON_PSEUDO/TON_REPO/blob/main/card_back.png?raw=true"
+}
