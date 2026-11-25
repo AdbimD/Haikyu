@@ -237,7 +237,7 @@
     }
   },
   "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/AdbimD/Haikyu/refs/heads/main/haikyu-vobaca-cards.json",
+    "dataUrl": "https://raw.githubusercontent.com/AdbimD/Haikyu/refs/heads/main/haikyu-tcg-cards.json",
     "cardBack": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Back.png?raw=true"
   },
   "cardRotation": "0",
