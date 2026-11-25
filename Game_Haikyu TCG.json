@@ -22,7 +22,7 @@
         "general": {
           "min": 40,
           "max": 40,
-          "maxPerCard": 40
+          "maxPerCard": 4
         },
         "categories": [
           {
@@ -81,7 +81,7 @@
           "BlockSide",
           "BlockCenter",
           "Receive",
-          "Toss",
+          "SetArea",
           "Attack",
           "Event",
           "SetCards"
@@ -141,7 +141,7 @@
                   }
                 },
                 {
-                  "section": "Toss",
+                  "section": "SetArea",
                   "style": {
                     "flex": "1"
                   }
@@ -208,11 +208,6 @@
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
-          "Toss": {
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          },
           "Attack": {
             "isHidden": "no",
             "height": "MEDIUM",
@@ -227,6 +222,11 @@
             "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "CENTER"
+          },
+          "SetArea": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
           }
         },
         "autoPlayFromHand": {
@@ -237,9 +237,9 @@
     }
   },
   "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/TON_PSEUDO/TON_REPO/refs/heads/main/haikyu-vobaca-cards.json",
-    "cardBack": "https://github.com/TON_PSEUDO/TON_REPO/blob/main/card_back.png?raw=true"
+    "dataUrl": "https://raw.githubusercontent.com/AdbimD/Haikyu/refs/heads/main/haikyu-vobaca-cards.json",
+    "cardBack": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Back.png?raw=true"
   },
   "cardRotation": "0",
-  "defaultRessources.backgrounds": "https://github.com/TON_PSEUDO/TON_REPO/blob/main/card_back.png?raw=true"
+  "defaultRessources.backgrounds": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Back.png?raw=true"
 }

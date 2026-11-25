@@ -1,32 +1,3849 @@
 {
-  "HV-P01-001-SR": {
-    "id": "HV-P01-001-SR",
+  "HV-D01-001-EN-D": {
+    "id": "HV-D01-001-EN-D",
     "isToken": false,
     "face": {
       "front": {
-        "name": "EXEMPLE - à remplacer",
+        "name": "Shoyo Hinata",
         "type": "Character",
-        "image": "https://github.com/TON_PSEUDO/TON_REPO/blob/main/Card%20Database/HV-P01-001-EN-SR.webp?raw=true",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D01-001-EN-D.webp?raw=true",
         "isHorizontal": false,
-        "effet": "Texte de la carte",
-        "serve": 3,
+        "serve": 2,
         "block": 2,
         "receive": 2,
-        "toss": 1,
-        "attack": 4
+        "setPoint": 0,
+        "attack": 2,
+        "trigger": "Enter Attack Area",
+        "effet": "You may pay 2 Guts to use this skill. This character gets +2 Attack Point."
       }
     },
-    "name": "EXEMPLE - à remplacer",
+    "name": "Shoyo Hinata",
     "type": "Character",
-    "rarity": "SR",
-    "set": "HV-P01",
+    "rarity": "D",
     "affiliation": "Karasuno",
     "year": "1st Year",
+    "position": "MB",
+    "serve": 2,
+    "block": 2,
+    "receive": 2,
+    "setPoint": 0,
+    "attack": 2,
+    "trigger": "Enter Attack Area"
+  },
+  "HV-D01-002-EN-D": {
+    "id": "HV-D01-002-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tobio Kageyama",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D01-002-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 2,
+        "setPoint": 1,
+        "attack": 1,
+        "trigger": "Enter Set Area",
+        "effet": "You may pay 2 Guts to use this skill. This character gets +2 Set Point."
+      }
+    },
+    "name": "Tobio Kageyama",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "S",
+    "serve": 1,
+    "block": 1,
+    "receive": 2,
+    "setPoint": 1,
+    "attack": 1,
+    "trigger": "Enter Set Area"
+  },
+  "HV-D01-003-EN-D": {
+    "id": "HV-D01-003-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kei Tsukishima",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D01-003-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 3,
+        "receive": 1,
+        "setPoint": 0,
+        "attack": 2,
+        "trigger": "Enter Block Area",
+        "effet": "If your opponent's Offense Point is 4 or less, you may pay 1 Guts to use this skill. Draw 1 card."
+      }
+    },
+    "name": "Kei Tsukishima",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 1,
+    "block": 3,
+    "receive": 1,
+    "setPoint": 0,
+    "attack": 2,
+    "trigger": "Enter Block Area"
+  },
+  "HV-D01-004-EN-D": {
+    "id": "HV-D01-004-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tadashi Yamaguchi",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D01-004-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 5,
+        "block": 3,
+        "receive": 3,
+        "setPoint": 0,
+        "attack": 1,
+        "effet": ""
+      }
+    },
+    "name": "Tadashi Yamaguchi",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 5,
+    "block": 3,
+    "receive": 3,
+    "setPoint": 0,
+    "attack": 1
+  },
+  "HV-D01-005-EN-D": {
+    "id": "HV-D01-005-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Yu Nishinoya",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D01-005-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 0,
+        "trigger": "Enter Receive Area",
+        "effet": "You may pay 3 Guts to use this skill. Draw 1 card. This character gets +2 Receive Point."
+      }
+    },
+    "name": "Yu Nishinoya",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Karasuno",
+    "year": "2nd Year",
+    "position": "Li",
+    "serve": 1,
+    "block": 1,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 0,
+    "trigger": "Enter Receive Area"
+  },
+  "HV-D01-006-EN-D": {
+    "id": "HV-D01-006-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ryunosuke Tanaka",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D01-006-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 2,
+        "setPoint": 1,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Ryunosuke Tanaka",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Karasuno",
+    "year": "2nd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 2,
+    "receive": 2,
+    "setPoint": 1,
+    "attack": 3
+  },
+  "HV-D01-007-EN-D": {
+    "id": "HV-D01-007-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Chikara Ennoshita",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D01-007-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 1,
+        "receive": 2,
+        "setPoint": 0,
+        "attack": 3,
+        "trigger": "Enter Receive Area",
+        "effet": "You may discard 1 card from your hand to use this skill. This character gets +3 Receive Point."
+      }
+    },
+    "name": "Chikara Ennoshita",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Karasuno",
+    "year": "2nd Year",
+    "position": "WS",
+    "serve": 2,
+    "block": 1,
+    "receive": 2,
+    "setPoint": 0,
+    "attack": 3,
+    "trigger": "Enter Receive Area"
+  },
+  "HV-D01-008-EN-D": {
+    "id": "HV-D01-008-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Daichi Sawamura",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D01-008-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 3,
+        "block": 1,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 2,
+        "effet": ""
+      }
+    },
+    "name": "Daichi Sawamura",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Karasuno",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 3,
+    "block": 1,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 2
+  },
+  "HV-D01-009-EN-D": {
+    "id": "HV-D01-009-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Koshi Sugawara",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D01-009-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 2,
+        "setPoint": 2,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Koshi Sugawara",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Karasuno",
+    "year": "3rd Year",
+    "position": "S",
+    "serve": 1,
+    "block": 1,
+    "receive": 2,
+    "setPoint": 2,
+    "attack": 3
+  },
+  "HV-D01-010-EN-D": {
+    "id": "HV-D01-010-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Asahi Azumane",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D01-010-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 2,
+        "receive": 4,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Asahi Azumane",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Karasuno",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 2,
+    "block": 2,
+    "receive": 4,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-D01-011-EN-D": {
+    "id": "HV-D01-011-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "VOLLEYBALL IS A SPORT... WHERE YOU ALWAYS LOOK UP!!",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D01-011-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Receive",
+        "effet": "Draw 1 card. One of your characters gets +1 Receive Point. If that character's Receive Point is 4 or less, that character gets an additional +1 Receive Point."
+      }
+    },
+    "name": "VOLLEYBALL IS A SPORT... WHERE YOU ALWAYS LOOK UP!!",
+    "type": "Event",
+    "rarity": "D",
+    "affiliation": "Karasuno",
+    "year": "",
+    "position": "",
+    "timing": "Receive"
+  },
+  "HV-D01-012-EN-D": {
+    "id": "HV-D01-012-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "SLIDE ATTACK",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D01-012-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Attack",
+        "effet": "Draw 1 card, and one of your Karasuno characters gets +1 Attack Point. If the character in your Set Area is \"Tobio Kageyama\" and the character in your Attack Area is \"Shoyo Hinata\", during your opponent's next turn, they can play no more than 1 character into their Block Area."
+      }
+    },
+    "name": "SLIDE ATTACK",
+    "type": "Event",
+    "rarity": "D",
+    "affiliation": "Karasuno",
+    "year": "",
+    "position": "",
+    "timing": "Attack"
+  },
+  "HV-D02-001-EN-D": {
+    "id": "HV-D02-001-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kenma Kozume",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D02-001-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 1,
+        "setPoint": 1,
+        "attack": 0,
+        "trigger": "Enter Set Area",
+        "effet": "You may pay 2 Guts to use this skill. This character gets +1 Set Point. During your opponent's next turn, whenever your opponent's character enters their Attack Area, that character gets -2 Attack Point."
+      }
+    },
+    "name": "Kenma Kozume",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Nekoma",
+    "year": "2nd Year",
+    "position": "S",
+    "serve": 1,
+    "block": 2,
+    "receive": 1,
+    "setPoint": 1,
+    "attack": 0,
+    "trigger": "Enter Set Area"
+  },
+  "HV-D02-002-EN-D": {
+    "id": "HV-D02-002-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tetsuro Kuroo",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D02-002-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 3,
+        "receive": 1,
+        "setPoint": 0,
+        "attack": 2,
+        "trigger": "Enter Block Area",
+        "effet": "You may pay 1 Guts to use this skill. During this turn, when you successfully block, Stuffed 5."
+      }
+    },
+    "name": "Tetsuro Kuroo",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Nekoma",
+    "year": "3rd Year",
+    "position": "MB",
+    "serve": 1,
+    "block": 3,
+    "receive": 1,
+    "setPoint": 0,
+    "attack": 2,
+    "trigger": "Enter Block Area"
+  },
+  "HV-D02-003-EN-D": {
+    "id": "HV-D02-003-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Morisuke Yaku",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D02-003-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 0,
+        "trigger": "Enter Receive Area",
+        "effet": "You may discard 1 card from your hand to use this skill. This character gets +2 Receive Point."
+      }
+    },
+    "name": "Morisuke Yaku",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Nekoma",
+    "year": "3rd Year",
+    "position": "Li",
+    "serve": 1,
+    "block": 1,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 0,
+    "trigger": "Enter Receive Area"
+  },
+  "HV-D02-004-EN-D": {
+    "id": "HV-D02-004-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lev Haiba",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D02-004-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 1,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": "When your character enters your Block Area, if this character is in your Attack Area, you may pay 2 Guts to use this skill. Enter this character into your Block Area as a Side Blocker. (If you already have a character named \"Lev Haiba\" in your Block Area or if you have 3 characters in your Block Area, this character cannot enter your Block Area.)"
+      }
+    },
+    "name": "Lev Haiba",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Nekoma",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 1,
+    "block": 2,
+    "receive": 1,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-D02-005-EN-D": {
+    "id": "HV-D02-005-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Nobuyuki Kai",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D02-005-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 2,
+        "effet": ""
+      }
+    },
+    "name": "Nobuyuki Kai",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Nekoma",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 2,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 2
+  },
+  "HV-D02-006-EN-D": {
+    "id": "HV-D02-006-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Taketora Yamamoto",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D02-006-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 5,
+        "block": 2,
+        "receive": 2,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Taketora Yamamoto",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Nekoma",
+    "year": "2nd Year",
+    "position": "WS",
+    "serve": 5,
+    "block": 2,
+    "receive": 2,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-D02-007-EN-D": {
+    "id": "HV-D02-007-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shohei Fukunaga",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D02-007-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 0,
+        "receive": 4,
+        "setPoint": 1,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Shohei Fukunaga",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Nekoma",
+    "year": "2nd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 0,
+    "receive": 4,
+    "setPoint": 1,
+    "attack": 3
+  },
+  "HV-D02-008-EN-D": {
+    "id": "HV-D02-008-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "So Inuoka",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D02-008-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 3,
+        "receive": 3,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "So Inuoka",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Nekoma",
+    "year": "1st Year",
+    "position": "WS",
+    "serve": 2,
+    "block": 3,
+    "receive": 3,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-D02-009-EN-D": {
+    "id": "HV-D02-009-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Yuki Shibayama",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D02-009-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 0,
+        "trigger": "Enter Receive Area",
+        "effet": "You may pay 2 Guts to use this skill. Draw 1 card."
+      }
+    },
+    "name": "Yuki Shibayama",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Nekoma",
+    "year": "1st Year",
+    "position": "Li",
+    "serve": 1,
+    "block": 1,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 0,
+    "trigger": "Enter Receive Area"
+  },
+  "HV-D02-010-EN-D": {
+    "id": "HV-D02-010-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tamahiko Teshiro",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D02-010-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 4,
+        "block": 1,
+        "receive": 4,
+        "setPoint": 1,
+        "attack": 0,
+        "effet": ""
+      }
+    },
+    "name": "Tamahiko Teshiro",
+    "type": "Character",
+    "rarity": "D",
+    "affiliation": "Nekoma",
+    "year": "1st Year",
+    "position": "S",
+    "serve": 4,
+    "block": 1,
+    "receive": 4,
+    "setPoint": 1,
+    "attack": 0
+  },
+  "HV-D02-011-EN-D": {
+    "id": "HV-D02-011-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "I TOLD YOU, YOU WANNA PUT 'EM FORWARD... MR. JUSTIN KLUBB.",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D02-011-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Block / Receive",
+        "effet": "Draw 1 card. Then, choose one of the following. ▶ One of your characters named \"Tetsuro Kuroo\" in your Block Area gets +1 Block Point. ▶ One of your characters gets +1 Receive Point."
+      }
+    },
+    "name": "I TOLD YOU, YOU WANNA PUT 'EM FORWARD... MR. JUSTIN KLUBB.",
+    "type": "Event",
+    "rarity": "D",
+    "affiliation": "Nekoma",
+    "year": "",
+    "position": "",
+    "timing": "Block / Receive"
+  },
+  "HV-D02-012-EN-D": {
+    "id": "HV-D02-012-EN-D",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "THEN YOU JUST BEAT THEM OVER THE HEAD WITH A REGULAR ATTACK. THAT'S THE ONLY WAY.",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-D02-012-EN-D.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Draw",
+        "effet": "Draw 1 card. Look at the top 3 cards of your deck. Reveal up to 1 card named \"Lev Haiba\" or \"So Inuoka\" from among them and add it to your hand. Put the remaining cards on the bottom of your deck in any order."
+      }
+    },
+    "name": "THEN YOU JUST BEAT THEM OVER THE HEAD WITH A REGULAR ATTACK. THAT'S THE ONLY WAY.",
+    "type": "Event",
+    "rarity": "D",
+    "affiliation": "Nekoma",
+    "year": "",
+    "position": "",
+    "timing": "Draw"
+  },
+  "HV-P01-002-EN-SR": {
+    "id": "HV-P01-002-EN-SR",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shoyo Hinata",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-002-EN-SR.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 3,
+        "receive": 1,
+        "setPoint": 0,
+        "attack": 1,
+        "trigger": "Enter Attack Area",
+        "effet": "You may pay 3 Guts to use this skill. This character gets +4 Attack Point. During your opponent's next turn, they cannot play characters with original Receive Point of 6 or more into their Receive Area."
+      }
+    },
+    "name": "Shoyo Hinata",
+    "type": "Character",
+    "rarity": "SR",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 2,
+    "block": 3,
+    "receive": 1,
+    "setPoint": 0,
+    "attack": 1,
+    "trigger": "Enter Attack Area"
+  },
+  "HV-P01-003-EN-R": {
+    "id": "HV-P01-003-EN-R",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shoyo Hinata",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-003-EN-R.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 2,
+        "setPoint": 0,
+        "attack": 2,
+        "trigger": "Enter Attack Area",
+        "effet": "You may use this skill if this character entered from your hand, you have 3 or fewer cards in your hand, and the character in your Set Area is \"Tobio Kageyama\". This character gets +2 Attack Point. During your opponent's next turn, they can play no more than 2 characters into their Block Area."
+      }
+    },
+    "name": "Shoyo Hinata",
+    "type": "Character",
+    "rarity": "R",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 1,
+    "block": 2,
+    "receive": 2,
+    "setPoint": 0,
+    "attack": 2,
+    "trigger": "Enter Attack Area"
+  },
+  "HV-P01-004-EN-UC": {
+    "id": "HV-P01-004-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shoyo Hinata",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-004-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 0,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Shoyo Hinata",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 2,
+    "block": 0,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-P01-006-EN-SR": {
+    "id": "HV-P01-006-EN-SR",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tobio Kageyama",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-006-EN-SR.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 1,
+        "setPoint": 1,
+        "attack": 2,
+        "trigger": "Enter Set Area",
+        "effet": "You may pay 2 Guts to use this skill. Reveal the top card of your deck. Add up to 1 card named \"Shoyo Hinata\" or \"FOUR SET\" from the revealed card to your hand, then put the remaining card on the bottom of your deck. In addition, during this turn, whenever your \"Shoyo Hinata\" enters, that character gets +2 Attack Point."
+      }
+    },
+    "name": "Tobio Kageyama",
+    "type": "Character",
+    "rarity": "SR",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "S",
+    "serve": 1,
+    "block": 1,
+    "receive": 1,
+    "setPoint": 1,
+    "attack": 2,
+    "trigger": "Enter Set Area"
+  },
+  "HV-P01-007-EN-UC": {
+    "id": "HV-P01-007-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tobio Kageyama",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-007-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 2,
+        "receive": 1,
+        "setPoint": 2,
+        "attack": 2,
+        "effet": ""
+      }
+    },
+    "name": "Tobio Kageyama",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "S",
+    "serve": 2,
+    "block": 2,
+    "receive": 1,
+    "setPoint": 2,
+    "attack": 2
+  },
+  "HV-P01-008-EN-R": {
+    "id": "HV-P01-008-EN-R",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kei Tsukishima",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-008-EN-R.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 2,
+        "setPoint": 0,
+        "attack": 2,
+        "trigger": "Enter Block Area",
+        "effet": "You may pay 2 Guts to do all of the following. ▶ If you have a character named \"Tadashi Yamaguchi\" in your court, this character gets +2 Block Point. ▶ During this turn, when you successfully block, Stuffed 6."
+      }
+    },
+    "name": "Kei Tsukishima",
+    "type": "Character",
+    "rarity": "R",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 1,
+    "block": 2,
+    "receive": 2,
+    "setPoint": 0,
+    "attack": 2,
+    "trigger": "Enter Block Area"
+  },
+  "HV-P01-009-EN-C": {
+    "id": "HV-P01-009-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kei Tsukishima",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-009-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 3,
+        "receive": 3,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Kei Tsukishima",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 2,
+    "block": 3,
+    "receive": 3,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-P01-010-EN-R": {
+    "id": "HV-P01-010-EN-R",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tadashi Yamaguchi",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-010-EN-R.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 2,
+        "receive": 0,
+        "setPoint": 0,
+        "attack": 3,
+        "trigger": "Enter Serve Area",
+        "effet": "Reveal the top card of your deck. If that card is a Karasuno card, during your opponent's next turn, whenever a character enters their Set Area, that character gets -2 Set Point. Put the revealed card on the bottom of your deck."
+      }
+    },
+    "name": "Tadashi Yamaguchi",
+    "type": "Character",
+    "rarity": "R",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 2,
+    "block": 2,
+    "receive": 0,
+    "setPoint": 0,
+    "attack": 3,
+    "trigger": "Enter Serve Area"
+  },
+  "HV-P01-011-EN-UC": {
+    "id": "HV-P01-011-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Yu Nishinoya",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-011-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 6,
+        "setPoint": 0,
+        "attack": 0,
+        "effet": ""
+      }
+    },
+    "name": "Yu Nishinoya",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Karasuno",
+    "year": "2nd Year",
+    "position": "Li",
+    "serve": 1,
+    "block": 1,
+    "receive": 6,
+    "setPoint": 0,
+    "attack": 0
+  },
+  "HV-P01-012-EN-C": {
+    "id": "HV-P01-012-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ryunosuke Tanaka",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-012-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 5,
+        "block": 2,
+        "receive": 2,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Ryunosuke Tanaka",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Karasuno",
+    "year": "2nd Year",
+    "position": "WS",
+    "serve": 5,
+    "block": 2,
+    "receive": 2,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-P01-013-EN-C": {
+    "id": "HV-P01-013-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Chikara Ennoshita",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-013-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 0,
+        "receive": 2,
+        "setPoint": 0,
+        "attack": 0,
+        "trigger": "Receive Phase Hand",
+        "effet": "(Discard this card from your hand): One of your Karasuno characters gets +2 Receive Point."
+      }
+    },
+    "name": "Chikara Ennoshita",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Karasuno",
+    "year": "2nd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 0,
+    "receive": 2,
+    "setPoint": 0,
+    "attack": 0,
+    "trigger": "Receive Phase Hand"
+  },
+  "HV-P01-014-EN-UC": {
+    "id": "HV-P01-014-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Daichi Sawamura",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-014-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 3,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 0,
+        "effet": ""
+      }
+    },
+    "name": "Daichi Sawamura",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Karasuno",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 3,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 0
+  },
+  "HV-P01-015-EN-C": {
+    "id": "HV-P01-015-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Koshi Sugawara",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-015-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 0,
+        "receive": 2,
+        "setPoint": 1,
+        "attack": 2,
+        "trigger": "Enter Set Area",
+        "effet": "You may pay 2 Guts to use this skill. Draw 1 card. This character gets +1 Set Point."
+      }
+    },
+    "name": "Koshi Sugawara",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Karasuno",
+    "year": "3rd Year",
+    "position": "S",
+    "serve": 1,
+    "block": 0,
+    "receive": 2,
+    "setPoint": 1,
+    "attack": 2,
+    "trigger": "Enter Set Area"
+  },
+  "HV-P01-016-EN-C": {
+    "id": "HV-P01-016-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Asahi Azumane",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-016-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 3,
+        "block": 0,
+        "receive": 1,
+        "setPoint": 0,
+        "attack": 3,
+        "trigger": "Enter Attack Area",
+        "effet": "If the character in your Set Area is an \"S\" from Karasuno, you may pay 4 Guts to use this skill. This character gets +2 Attack Point."
+      }
+    },
+    "name": "Asahi Azumane",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Karasuno",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 3,
+    "block": 0,
+    "receive": 1,
+    "setPoint": 0,
+    "attack": 3,
+    "trigger": "Enter Attack Area"
+  },
+  "HV-P01-018-EN-SR": {
+    "id": "HV-P01-018-EN-SR",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kenma Kozume",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-018-EN-SR.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 0,
+        "setPoint": 1,
+        "attack": 1,
+        "trigger": "Enter Set Area",
+        "effet": "You may pay 3 Guts to use this skill. This character gets +1 Set Point. If all of your characters are Nekoma characters, add up to 1 card from your Event Area to your hand."
+      }
+    },
+    "name": "Kenma Kozume",
+    "type": "Character",
+    "rarity": "SR",
+    "affiliation": "Nekoma",
+    "year": "2nd Year",
+    "position": "S",
+    "serve": 1,
+    "block": 2,
+    "receive": 0,
+    "setPoint": 1,
+    "attack": 1,
+    "trigger": "Enter Set Area"
+  },
+  "HV-P01-019-EN-UC": {
+    "id": "HV-P01-019-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kenma Kozume",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-019-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 2,
+        "setPoint": 1,
+        "attack": 1,
+        "effet": "When a character with original Attack Point of 3 enters your Attack Area, if this character is in your Set Area, you may pay 2 Guts to use this skill. Choose 1 Nekoma card from the Guts in your Attack Area and play that character into the Attack Area. Then, that character gets +2 Attack Point."
+      }
+    },
+    "name": "Kenma Kozume",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Nekoma",
+    "year": "2nd Year",
+    "position": "S",
+    "serve": 1,
+    "block": 1,
+    "receive": 2,
+    "setPoint": 1,
+    "attack": 1
+  },
+  "HV-P01-021-EN-SR": {
+    "id": "HV-P01-021-EN-SR",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tetsuro Kuroo",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-021-EN-SR.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 2,
+        "receive": 3,
+        "setPoint": 0,
+        "attack": 1,
+        "trigger": "Enter Attack Area",
+        "effet": "You may pay 3 Guts to use this skill. This character gets +3 Attack Point. Add 2 Nekoma cards with different names from the Guts in one of your Areas to your hand."
+      }
+    },
+    "name": "Tetsuro Kuroo",
+    "type": "Character",
+    "rarity": "SR",
+    "affiliation": "Nekoma",
+    "year": "3rd Year",
+    "position": "MB",
+    "serve": 2,
+    "block": 2,
+    "receive": 3,
+    "setPoint": 0,
+    "attack": 1,
+    "trigger": "Enter Attack Area"
+  },
+  "HV-P01-022-EN-R": {
+    "id": "HV-P01-022-EN-R",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tetsuro Kuroo",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-022-EN-R.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Tetsuro Kuroo",
+    "type": "Character",
+    "rarity": "R",
+    "affiliation": "Nekoma",
+    "year": "3rd Year",
+    "position": "MB",
+    "serve": 1,
+    "block": 1,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-P01-023-EN-R": {
+    "id": "HV-P01-023-EN-R",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Morisuke Yaku",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-023-EN-R.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 0,
+        "effet": "When a Nekoma character other than \"Morisuke Yaku\" enters on top of this character in your Receive Area, you may send this card into the Drop Area to use this skill. That character gets +2 Receive Point."
+      }
+    },
+    "name": "Morisuke Yaku",
+    "type": "Character",
+    "rarity": "R",
+    "affiliation": "Nekoma",
+    "year": "3rd Year",
+    "position": "Li",
+    "serve": 1,
+    "block": 1,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 0
+  },
+  "HV-P01-024-EN-C": {
+    "id": "HV-P01-024-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Morisuke Yaku",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-024-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 6,
+        "setPoint": 0,
+        "attack": 0,
+        "effet": ""
+      }
+    },
+    "name": "Morisuke Yaku",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Nekoma",
+    "year": "3rd Year",
+    "position": "Li",
+    "serve": 1,
+    "block": 1,
+    "receive": 6,
+    "setPoint": 0,
+    "attack": 0
+  },
+  "HV-P01-025-EN-R": {
+    "id": "HV-P01-025-EN-R",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lev Haiba",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-025-EN-R.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 3,
+        "receive": 1,
+        "setPoint": 0,
+        "attack": 2,
+        "trigger": "Enter Attack Area",
+        "effet": "You may pay 2 Guts to do all of the following. ▶ If this character entered the court by a skill of \"Kenma Kozume,\" this character gets +2 Attack Point. ▶ During your opponent's next turn, whenever their character enters their Block Area as the Center Blocker, that character gets -3 Block Point."
+      }
+    },
+    "name": "Lev Haiba",
+    "type": "Character",
+    "rarity": "R",
+    "affiliation": "Nekoma",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 1,
+    "block": 3,
+    "receive": 1,
+    "setPoint": 0,
+    "attack": 2,
+    "trigger": "Enter Attack Area"
+  },
+  "HV-P01-026-EN-C": {
+    "id": "HV-P01-026-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lev Haiba",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-026-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 3,
+        "receive": 3,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Lev Haiba",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Nekoma",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 2,
+    "block": 3,
+    "receive": 3,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-P01-027-EN-UC": {
+    "id": "HV-P01-027-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Nobuyuki Kai",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-027-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 0,
+        "receive": 4,
+        "setPoint": 1,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Nobuyuki Kai",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Nekoma",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 0,
+    "receive": 4,
+    "setPoint": 1,
+    "attack": 3
+  },
+  "HV-P01-028-EN-C": {
+    "id": "HV-P01-028-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Taketora Yamamoto",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-028-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 0,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": "If a character named \"Lev Haiba\" enters on top of this character in your Attack Area, you may discard 1 Nekoma card to use this skill. That character gets +1 Attack Point."
+      }
+    },
+    "name": "Taketora Yamamoto",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Nekoma",
+    "year": "2nd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 2,
+    "receive": 0,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-P01-029-EN-UC": {
+    "id": "HV-P01-029-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shohei Fukunaga",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-029-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 5,
+        "setPoint": 1,
+        "attack": 0,
+        "effet": ""
+      }
+    },
+    "name": "Shohei Fukunaga",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Nekoma",
+    "year": "2nd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 1,
+    "receive": 5,
+    "setPoint": 1,
+    "attack": 0
+  },
+  "HV-P01-030-EN-C": {
+    "id": "HV-P01-030-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "So Inuoka",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-030-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 3,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 0,
+        "effet": ""
+      }
+    },
+    "name": "So Inuoka",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Nekoma",
+    "year": "1st Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 3,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 0
+  },
+  "HV-P01-031-EN-C": {
+    "id": "HV-P01-031-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Yuki Shibayama",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-031-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 4,
+        "setPoint": 0,
+        "attack": 0,
+        "trigger": "Receive Phase Hand",
+        "effet": "(Discard this card from your hand): One of your Nekoma characters gets +2 Receive Point."
+      }
+    },
+    "name": "Yuki Shibayama",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Nekoma",
+    "year": "1st Year",
+    "position": "Li",
+    "serve": 1,
+    "block": 1,
+    "receive": 4,
+    "setPoint": 0,
+    "attack": 0,
+    "trigger": "Receive Phase Hand"
+  },
+  "HV-P01-032-EN-UC": {
+    "id": "HV-P01-032-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tamahiko Teshiro",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-032-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 3,
+        "block": 1,
+        "receive": 1,
+        "setPoint": 1,
+        "attack": 0,
+        "trigger": "Enter Serve Area",
+        "effet": "During your opponent's next turn, characters in their Receive Area and in their Set Area cannot use their abilities."
+      }
+    },
+    "name": "Tamahiko Teshiro",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Nekoma",
+    "year": "1st Year",
+    "position": "S",
+    "serve": 3,
+    "block": 1,
+    "receive": 1,
+    "setPoint": 1,
+    "attack": 0,
+    "trigger": "Enter Serve Area"
+  },
+  "HV-P01-034-EN-UC": {
+    "id": "HV-P01-034-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Toru Oikawa",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-034-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 5,
+        "block": 0,
+        "receive": 0,
+        "setPoint": 1,
+        "attack": 0,
+        "trigger": "Enter Serve Area",
+        "effet": "You may pay 1 Guts to use this skill. If you paid an Aoba Johsai card this way, your opponent shuffles all cards from their hand into their deck, then draws 6 cards."
+      }
+    },
+    "name": "Toru Oikawa",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Aoba Johsai",
+    "year": "3rd Year",
+    "position": "S",
+    "serve": 5,
+    "block": 0,
+    "receive": 0,
+    "setPoint": 1,
+    "attack": 0,
+    "trigger": "Enter Serve Area"
+  },
+  "HV-P01-035-EN-R": {
+    "id": "HV-P01-035-EN-R",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Hajime Iwaizumi",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-035-EN-R.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 3,
+        "receive": 1,
+        "setPoint": 0,
+        "attack": 2,
+        "trigger": "Enter Attack Area",
+        "effet": "You may discard 1 Aoba Johsai card to use this skill. This character gets +2 Attack Point. If your opponent has 4 or fewer cards in their hand, during their next turn, they cannot add cards to their hand by ability."
+      }
+    },
+    "name": "Hajime Iwaizumi",
+    "type": "Character",
+    "rarity": "R",
+    "affiliation": "Aoba Johsai",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 3,
+    "receive": 1,
+    "setPoint": 0,
+    "attack": 2,
+    "trigger": "Enter Attack Area"
+  },
+  "HV-P01-036-EN-C": {
+    "id": "HV-P01-036-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Yutaro Kindaichi",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-036-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 3,
+        "block": 3,
+        "receive": 2,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Yutaro Kindaichi",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Aoba Johsai",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 3,
+    "block": 3,
+    "receive": 2,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-P01-037-EN-C": {
+    "id": "HV-P01-037-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Issei Matsukawa",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-037-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 3,
+        "receive": 1,
+        "setPoint": 0,
+        "attack": 2,
+        "trigger": "Enter Block Area",
+        "effet": "If your opponent's Offense Point is 8 or more, you may pay 1 Guts to use this skill. End the Block Phase immediately and start your Draw Phase. In addition, during this turn, whenever one of your Aoba Johsai characters enters your Receive Area, that character gets +3 Receive Point."
+      }
+    },
+    "name": "Issei Matsukawa",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Aoba Johsai",
+    "year": "3rd Year",
+    "position": "MB",
+    "serve": 1,
+    "block": 3,
+    "receive": 1,
+    "setPoint": 0,
+    "attack": 2,
+    "trigger": "Enter Block Area"
+  },
+  "HV-P01-038-EN-C": {
+    "id": "HV-P01-038-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Takahiro Hanamaki",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-038-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 2,
+        "effet": ""
+      }
+    },
+    "name": "Takahiro Hanamaki",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Aoba Johsai",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 2,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 2
+  },
+  "HV-P01-039-EN-C": {
+    "id": "HV-P01-039-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shinji Watari",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-039-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 5,
+        "setPoint": 1,
+        "attack": 0,
+        "trigger": "Enter Receive Area",
+        "effet": "If your opponent's Offense Point is 6 or more, you may discard 1 Aoba Johsai card to use this skill. This character gets +1 Receive Point. If all of your characters are Aoba Johsai, draw 1 card."
+      }
+    },
+    "name": "Shinji Watari",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Aoba Johsai",
+    "year": "2nd Year",
+    "position": "Li",
+    "serve": 1,
+    "block": 1,
+    "receive": 5,
+    "setPoint": 1,
+    "attack": 0,
+    "trigger": "Enter Receive Area"
+  },
+  "HV-P01-040-EN-C": {
+    "id": "HV-P01-040-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shigeru Yahaba",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-040-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 1,
+        "receive": 3,
+        "setPoint": 2,
+        "attack": 2,
+        "effet": ""
+      }
+    },
+    "name": "Shigeru Yahaba",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Aoba Johsai",
+    "year": "2nd Year",
+    "position": "S",
+    "serve": 2,
+    "block": 1,
+    "receive": 3,
+    "setPoint": 2,
+    "attack": 2
+  },
+  "HV-P01-041-EN-UC": {
+    "id": "HV-P01-041-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Akira Kunimi",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-041-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 0,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 0,
+        "trigger": "Enter Attack Area",
+        "effet": "If all of your characters are Aoba Johsai and your opponent has 3 or fewer cards in their hand, you may pay 1 Guts to use this skill. Feint 4."
+      }
+    },
+    "name": "Akira Kunimi",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Aoba Johsai",
+    "year": "1st Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 0,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 0,
+    "trigger": "Enter Attack Area"
+  },
+  "HV-P01-042-EN-UC": {
+    "id": "HV-P01-042-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kentaro Kyotani",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-042-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 5,
+        "block": 0,
+        "receive": 4,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Kentaro Kyotani",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Aoba Johsai",
+    "year": "2nd Year",
+    "position": "WS",
+    "serve": 5,
+    "block": 0,
+    "receive": 4,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-P01-043-EN-SR": {
+    "id": "HV-P01-043-EN-SR",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kotaro Bokuto",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-043-EN-SR.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 4,
+        "block": 1,
+        "receive": 2,
+        "setPoint": 0,
+        "attack": 0,
+        "trigger": "Enter Attack Area",
+        "effet": "You may use this skill if this character entered from your hand, all of your characters are Fukurodani, and there is an odd number of Guts in your Attack Area. This character gets +5 Attack Point."
+      }
+    },
+    "name": "Kotaro Bokuto",
+    "type": "Character",
+    "rarity": "SR",
+    "affiliation": "Fukurodani",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 4,
+    "block": 1,
+    "receive": 2,
+    "setPoint": 0,
+    "attack": 0,
+    "trigger": "Enter Attack Area"
+  },
+  "HV-P01-044-EN-UC": {
+    "id": "HV-P01-044-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kotaro Bokuto",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-044-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 5,
+        "block": 2,
+        "receive": 2,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Kotaro Bokuto",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Fukurodani",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 5,
+    "block": 2,
+    "receive": 2,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-P01-045-EN-R": {
+    "id": "HV-P01-045-EN-R",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Keiji Akaashi",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-045-EN-R.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 1,
+        "receive": 0,
+        "setPoint": 1,
+        "attack": 2,
+        "trigger": "Enter Set Area",
+        "effet": "You may pay a total of 4 Guts from your Set Area and your Attack Area to use this skill. This character gets +2 Set Point. Add up to 1 card named \"Kotaro Bokuto\" from your Drop Area to your hand."
+      }
+    },
+    "name": "Keiji Akaashi",
+    "type": "Character",
+    "rarity": "R",
+    "affiliation": "Fukurodani",
+    "year": "2nd Year",
+    "position": "S",
+    "serve": 2,
+    "block": 1,
+    "receive": 0,
+    "setPoint": 1,
+    "attack": 2,
+    "trigger": "Enter Set Area"
+  },
+  "HV-P01-046-EN-UC": {
+    "id": "HV-P01-046-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Keiji Akaashi",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-046-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 3,
+        "setPoint": 2,
+        "attack": 1,
+        "effet": ""
+      }
+    },
+    "name": "Keiji Akaashi",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Fukurodani",
+    "year": "2nd Year",
+    "position": "S",
+    "serve": 1,
+    "block": 2,
+    "receive": 3,
+    "setPoint": 2,
+    "attack": 1
+  },
+  "HV-P01-047-EN-UC": {
+    "id": "HV-P01-047-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Akinori Konoha",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-047-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 0,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 0,
+        "effet": "When a Fukurodani character enters on top of this character in your Attack Area, you may discard 1 card to use this skill. That character gets +1 Attack Point."
+      }
+    },
+    "name": "Akinori Konoha",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Fukurodani",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 0,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 0
+  },
+  "HV-P01-048-EN-C": {
+    "id": "HV-P01-048-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Akinori Konoha",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-048-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 2,
+        "setPoint": 1,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Akinori Konoha",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Fukurodani",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 2,
+    "receive": 2,
+    "setPoint": 1,
+    "attack": 3
+  },
+  "HV-P01-049-EN-C": {
+    "id": "HV-P01-049-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Yamato Sarukui",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-049-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 3,
+        "receive": 0,
+        "setPoint": 1,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Yamato Sarukui",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Fukurodani",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 3,
+    "receive": 0,
+    "setPoint": 1,
+    "attack": 3
+  },
+  "HV-P01-050-EN-C": {
+    "id": "HV-P01-050-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Haruki Komi",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-050-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 6,
+        "setPoint": 0,
+        "attack": 0,
+        "effet": ""
+      }
+    },
+    "name": "Haruki Komi",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Fukurodani",
+    "year": "3rd Year",
+    "position": "Li",
+    "serve": 1,
+    "block": 1,
+    "receive": 6,
+    "setPoint": 0,
+    "attack": 0
+  },
+  "HV-P01-051-EN-C": {
+    "id": "HV-P01-051-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tatsuki Washio",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-051-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 3,
+        "block": 3,
+        "receive": 1,
+        "setPoint": 0,
+        "attack": 0,
+        "trigger": "Enter Block Area",
+        "effet": "If your opponent's Offense Point is 4 or more, you may send the top card of your deck into your Drop Area to use this skill. If that card is a Fukurodani card, Deflection 3."
+      }
+    },
+    "name": "Tatsuki Washio",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Fukurodani",
+    "year": "3rd Year",
+    "position": "MB",
+    "serve": 3,
+    "block": 3,
+    "receive": 1,
+    "setPoint": 0,
+    "attack": 0,
+    "trigger": "Enter Block Area"
+  },
+  "HV-P01-052-EN-C": {
+    "id": "HV-P01-052-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Wataru Onaga",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-052-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 3,
+        "receive": 3,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Wataru Onaga",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Fukurodani",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 2,
+    "block": 3,
+    "receive": 3,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-P01-053-EN-C": {
+    "id": "HV-P01-053-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Hayato Ikejiri",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-053-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 2,
+        "effet": ""
+      }
+    },
+    "name": "Hayato Ikejiri",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Tokonami",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 2,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 2
+  },
+  "HV-P01-054-EN-C": {
+    "id": "HV-P01-054-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Takanobu Aone",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-054-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 1,
+        "setPoint": 0,
+        "attack": 3,
+        "trigger": "Enter Block Area",
+        "effet": "You may pay 3 Guts to use this skill. This character gets +5 Block Point."
+      }
+    },
+    "name": "Takanobu Aone",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Date Tech",
+    "year": "2nd Year",
+    "position": "MB",
+    "serve": 1,
+    "block": 2,
+    "receive": 1,
+    "setPoint": 0,
+    "attack": 3,
+    "trigger": "Enter Block Area"
+  },
+  "HV-P01-055-EN-C": {
+    "id": "HV-P01-055-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kenji Futakuchi",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-055-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 5,
+        "block": 3,
+        "receive": 0,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Kenji Futakuchi",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Date Tech",
+    "year": "2nd Year",
+    "position": "WS",
+    "serve": 5,
+    "block": 3,
+    "receive": 0,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-P01-056-EN-R": {
+    "id": "HV-P01-056-EN-R",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Wakatoshi Ushijima",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-056-EN-R.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 4,
+        "block": 0,
+        "receive": 3,
+        "setPoint": 0,
+        "attack": 2,
+        "trigger": "Enter Serve Area/Attack Area",
+        "effet": "You may send 1 Event card from your hand into your Event Area to use this skill. Draw 1 card. Choose 1 parameter of this character. That parameter gets +2."
+      }
+    },
+    "name": "Wakatoshi Ushijima",
+    "type": "Character",
+    "rarity": "R",
+    "affiliation": "Shiratorizawa",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 4,
+    "block": 0,
+    "receive": 3,
+    "setPoint": 0,
+    "attack": 2,
+    "trigger": "Enter Serve Area/Attack Area"
+  },
+  "HV-P01-057-EN-C": {
+    "id": "HV-P01-057-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Satori Tendo",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-057-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 3,
+        "receive": 0,
+        "setPoint": 0,
+        "attack": 2,
+        "trigger": "Enter Block Area",
+        "effet": "During your opponent's next turn, whenever they add a card to their hand except by drawing, you draw 1 card."
+      }
+    },
+    "name": "Satori Tendo",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Shiratorizawa",
+    "year": "3rd Year",
+    "position": "MB",
+    "serve": 1,
+    "block": 3,
+    "receive": 0,
+    "setPoint": 0,
+    "attack": 2,
+    "trigger": "Enter Block Area"
+  },
+  "HV-P01-058-EN-C": {
+    "id": "HV-P01-058-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tsutomu Goshiki",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-058-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 5,
+        "block": 2,
+        "receive": 2,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Tsutomu Goshiki",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Shiratorizawa",
+    "year": "1st Year",
+    "position": "WS",
+    "serve": 5,
+    "block": 2,
+    "receive": 2,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-P01-059-EN-C": {
+    "id": "HV-P01-059-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Yoshiki Towada",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-059-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 3,
+        "block": 1,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 2,
+        "effet": ""
+      }
+    },
+    "name": "Yoshiki Towada",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Ohgi Minami",
+    "year": "2nd Year",
+    "position": "WS",
+    "serve": 3,
+    "block": 1,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 2
+  },
+  "HV-P01-060-EN-C": {
+    "id": "HV-P01-060-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Yudai Hyakuzawa",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-060-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 3,
+        "receive": 1,
+        "setPoint": 0,
+        "attack": 2,
+        "trigger": "Enter Block Area",
+        "effet": "You may use this skill if your opponent's Offense Point is 4 or more. Deflection 2."
+      }
+    },
+    "name": "Yudai Hyakuzawa",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Kakugawa",
+    "year": "1st Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 3,
+    "receive": 1,
+    "setPoint": 0,
+    "attack": 2,
+    "trigger": "Enter Block Area"
+  },
+  "HV-P01-061-EN-C": {
+    "id": "HV-P01-061-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Yuji Terushima",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-061-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 2,
+        "receive": 1,
+        "setPoint": 1,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Yuji Terushima",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Johzenji",
+    "year": "2nd Year",
+    "position": "WS",
+    "serve": 2,
+    "block": 2,
+    "receive": 1,
+    "setPoint": 1,
+    "attack": 3
+  },
+  "HV-P01-062-EN-C": {
+    "id": "HV-P01-062-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Takeru Nakashima",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-062-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 2,
+        "effet": ""
+      }
+    },
+    "name": "Takeru Nakashima",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Wakutani Minami",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 2,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 2
+  },
+  "HV-P01-063-EN-C": {
+    "id": "HV-P01-063-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Atsumu Miya",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-063-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 5,
+        "block": 1,
+        "receive": 1,
+        "setPoint": 2,
+        "attack": 1,
+        "effet": ""
+      }
+    },
+    "name": "Atsumu Miya",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Inarizaki",
+    "year": "2nd Year",
+    "position": "S",
+    "serve": 5,
+    "block": 1,
+    "receive": 1,
+    "setPoint": 2,
+    "attack": 1
+  },
+  "HV-P01-064-EN-C": {
+    "id": "HV-P01-064-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Osamu Miya",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-064-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 2,
+        "receive": 4,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Osamu Miya",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Inarizaki",
+    "year": "2nd Year",
+    "position": "WS",
+    "serve": 2,
+    "block": 2,
+    "receive": 4,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-P01-065-EN-C": {
+    "id": "HV-P01-065-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shinsuke Kita",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-065-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 1,
+        "receive": 2,
+        "setPoint": 0,
+        "attack": 3,
+        "trigger": "Enter Receive Area",
+        "effet": "If there are 5 or more cards in your opponent's Event Area that can be played as Set or Attack, this character gets +6 Receive Point."
+      }
+    },
+    "name": "Shinsuke Kita",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Inarizaki",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 2,
+    "block": 1,
+    "receive": 2,
+    "setPoint": 0,
+    "attack": 3,
+    "trigger": "Enter Receive Area"
+  },
+  "HV-P01-066-EN-R": {
+    "id": "HV-P01-066-EN-R",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Korai Hoshiumi",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-066-EN-R.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 3,
+        "block": 2,
+        "receive": 1,
+        "setPoint": 0,
+        "attack": 2,
+        "trigger": "Enter Attack Area",
+        "effet": "If all of your characters are Kamomedai, or you have 4 or more characters with different affiliations, you may pay 3 Guts to use this skill. This character gets +3 Attack Point. In addition, send up to 2 cards from your opponent's Event Area into the Drop Area. If there are 2 or fewer cards remaining in your opponent's Event Area, this character gets an additional +1 Attack Point."
+      }
+    },
+    "name": "Korai Hoshiumi",
+    "type": "Character",
+    "rarity": "R",
+    "affiliation": "Kamomedai",
+    "year": "2nd Year",
     "position": "WS",
     "serve": 3,
     "block": 2,
+    "receive": 1,
+    "setPoint": 0,
+    "attack": 2,
+    "trigger": "Enter Attack Area"
+  },
+  "HV-P01-067-EN-UC": {
+    "id": "HV-P01-067-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Sachiro Hirugami",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-067-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 5,
+        "block": 3,
+        "receive": 2,
+        "setPoint": 0,
+        "attack": 2,
+        "effet": ""
+      }
+    },
+    "name": "Sachiro Hirugami",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Kamomedai",
+    "year": "2nd Year",
+    "position": "MB",
+    "serve": 5,
+    "block": 3,
     "receive": 2,
-    "toss": 1,
-    "attack": 4
+    "setPoint": 0,
+    "attack": 2
+  },
+  "HV-P01-068-EN-R": {
+    "id": "HV-P01-068-EN-R",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kiyoomi Sakusa",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-068-EN-R.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 4,
+        "block": 0,
+        "receive": 3,
+        "setPoint": 0,
+        "attack": 2,
+        "trigger": "Enter Attack Area",
+        "effet": "You may use this skill if you have 3 or fewer cards in your hand and there are 4 or more characters with different affiliations. This character gets +2 Attack Point, and Block Out 2."
+      }
+    },
+    "name": "Kiyoomi Sakusa",
+    "type": "Character",
+    "rarity": "R",
+    "affiliation": "Itachiyama",
+    "year": "2nd Year",
+    "position": "WS",
+    "serve": 4,
+    "block": 0,
+    "receive": 3,
+    "setPoint": 0,
+    "attack": 2,
+    "trigger": "Enter Attack Area"
+  },
+  "HV-P01-069-EN-C": {
+    "id": "HV-P01-069-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Sakae Echigo",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-069-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 3,
+        "setPoint": 2,
+        "attack": 1,
+        "effet": ""
+      }
+    },
+    "name": "Sakae Echigo",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Tsubakihara",
+    "year": "3rd Year",
+    "position": "S",
+    "serve": 1,
+    "block": 2,
+    "receive": 3,
+    "setPoint": 2,
+    "attack": 1
+  },
+  "HV-P01-070-EN-C": {
+    "id": "HV-P01-070-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Itaru Shiramine",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-070-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 0,
+        "receive": 4,
+        "setPoint": 2,
+        "attack": 1,
+        "effet": ""
+      }
+    },
+    "name": "Itaru Shiramine",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Sarukawa Tech",
+    "year": "3rd Year",
+    "position": "S",
+    "serve": 2,
+    "block": 0,
+    "receive": 4,
+    "setPoint": 2,
+    "attack": 1
+  },
+  "HV-P01-071-EN-UC": {
+    "id": "HV-P01-071-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Suguru Daisho",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-071-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Suguru Daisho",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Nohebi",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 1,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-P01-072-EN-C": {
+    "id": "HV-P01-072-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Hinata · Kozume",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-072-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 0,
+        "receive": 0,
+        "setPoint": 1,
+        "attack": 3,
+        "effet": "When you play this card, treat its card name as \"Shoyo Hinata\" or \"Kenma Kozume\" instead of \"Hinata · Kozume.\" (The chosen name remains effective until the end of this turn. This card counts as one character when counting characters in your court.)"
+      }
+    },
+    "name": "Hinata · Kozume",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Karasuno / Nekoma",
+    "year": "1st Year / 2nd Year",
+    "position": "MB / S",
+    "serve": 1,
+    "block": 0,
+    "receive": 0,
+    "setPoint": 1,
+    "attack": 3
+  },
+  "HV-P01-073-EN-C": {
+    "id": "HV-P01-073-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tsukishima · Kuroo",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-073-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 3,
+        "receive": 0,
+        "setPoint": 0,
+        "attack": 2,
+        "effet": "When you play this card, treat its card name as \"Kei Tsukishima\" or \"Tetsuro Kuroo\" instead of \"Tsukishima · Kuroo.\" (The chosen name remains effective until the end of this turn. This card counts as one character when counting characters in your court.)"
+      }
+    },
+    "name": "Tsukishima · Kuroo",
+    "type": "Character",
+    "rarity": "C",
+    "affiliation": "Karasuno / Nekoma",
+    "year": "1st Year / 3rd Year",
+    "position": "MB / MB",
+    "serve": 2,
+    "block": 3,
+    "receive": 0,
+    "setPoint": 0,
+    "attack": 2
+  },
+  "HV-P01-074-EN-C": {
+    "id": "HV-P01-074-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ikkei Ukai",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-074-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Attack",
+        "effet": "Draw 1 card. One of your characters gets +1 Attack Point. If there are 5 or more cards in your opponent's Event Area that can be played as Draw or Receive, that character gets an additional +2 Attack Point."
+      }
+    },
+    "name": "Ikkei Ukai",
+    "type": "Event",
+    "rarity": "C",
+    "affiliation": "Karasuno",
+    "year": "",
+    "position": "Former Head Coach",
+    "timing": "Attack"
+  },
+  "HV-P01-075-EN-C": {
+    "id": "HV-P01-075-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kiyoko Shimizu",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-075-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Receive / Attack",
+        "effet": "Choose 1 parameter of one of your Karasuno characters. That parameter gets +1. If it is during the Receive Phase, draw 1 card."
+      }
+    },
+    "name": "Kiyoko Shimizu",
+    "type": "Event",
+    "rarity": "C",
+    "affiliation": "Karasuno",
+    "year": "3rd Year",
+    "position": "Manager",
+    "timing": "Receive / Attack"
+  },
+  "HV-P01-076-EN-C": {
+    "id": "HV-P01-076-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "GOOD LUCK.",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-076-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Draw",
+        "effet": "If you have 4 or fewer cards in your hand, add 2 Guts with the same affiliation from one of your Areas to your hand."
+      }
+    },
+    "name": "GOOD LUCK.",
+    "type": "Event",
+    "rarity": "C",
+    "affiliation": "Karasuno",
+    "year": "",
+    "position": "",
+    "timing": "Draw"
+  },
+  "HV-P01-077-EN-C": {
+    "id": "HV-P01-077-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "WE FIGHT TO THE LAST, RIGHT?",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-077-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Receive",
+        "effet": "1/Turn Karasuno characters in your Receive Area gets +2 Receive Point. If that character is \"Yu Nishinoya,\" draw 1 card."
+      }
+    },
+    "name": "WE FIGHT TO THE LAST, RIGHT?",
+    "type": "Event",
+    "rarity": "C",
+    "affiliation": "Karasuno",
+    "year": "",
+    "position": "",
+    "timing": "Receive"
+  },
+  "HV-P01-078-EN-R": {
+    "id": "HV-P01-078-EN-R",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "FOUR SET",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-078-EN-R.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Attack",
+        "effet": "Draw 2 cards, then discard 1 card. If there are 2 or fewer \"FOUR SET\" cards in your Event Area, play 1 \"Shoyo Hinata\" from your Drop Area into your Attack Area. That character gets +1 Attack Point."
+      }
+    },
+    "name": "FOUR SET",
+    "type": "Event",
+    "rarity": "R",
+    "affiliation": "Karasuno",
+    "year": "",
+    "position": "",
+    "timing": "Attack"
+  },
+  "HV-P01-079-EN-C": {
+    "id": "HV-P01-079-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "I AM UNDER NO ILLUSIONS THAT I COULD EVER BEAT YOU ON MY OWN.",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-079-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Block",
+        "effet": "Draw 1 card. One of your Karasuno characters in your Block Area gets +1 Block Point. If that character is \"Kei Tsukishima,\" add up to 1 character named \"Tadashi Yamaguchi\" from your Serve Area to your hand. During your opponent's next turn, whenever a character enters their Receive Area, that character gets -2 Receive Point."
+      }
+    },
+    "name": "I AM UNDER NO ILLUSIONS THAT I COULD EVER BEAT YOU ON MY OWN.",
+    "type": "Event",
+    "rarity": "C",
+    "affiliation": "Karasuno",
+    "year": "",
+    "position": "",
+    "timing": "Block"
+  },
+  "HV-P01-080-EN-C": {
+    "id": "HV-P01-080-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Yasufumi Nekomata",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-080-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Receive",
+        "effet": "Draw 1 card. One of your characters gets +1 Receive Point. If there are 5 or more cards in your opponent's Event Area that can be played as Set or Attack, that character gets an additional +2 Receive Point."
+      }
+    },
+    "name": "Yasufumi Nekomata",
+    "type": "Event",
+    "rarity": "C",
+    "affiliation": "Nekoma",
+    "year": "",
+    "position": "Head Coach",
+    "timing": "Receive"
+  },
+  "HV-P01-081-EN-C": {
+    "id": "HV-P01-081-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Akane Yamamoto",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-081-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Attack",
+        "effet": "Draw 1 card. One of your Nekoma characters gets +1 Attack Point. If all of your characters are Nekoma characters, you may pay 3 Guts from your Receive Area to use the following skill. That character gets an additional +1 Attack Point."
+      }
+    },
+    "name": "Akane Yamamoto",
+    "type": "Event",
+    "rarity": "C",
+    "affiliation": "Nekoma Junior High",
+    "year": "2nd Year",
+    "position": "Cheer Captain",
+    "timing": "Attack"
+  },
+  "HV-P01-082-EN-R": {
+    "id": "HV-P01-082-EN-R",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "THAT'S THE IMPORTANCE... OF STAYING CONNECTED AS A TEAM.",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-082-EN-R.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Receive",
+        "effet": "Draw 1 card. Choose one of the following. ▶ One of your Nekoma characters gets +1 Receive Point. ▶ If one of your Nekoma characters has 5 or more Receive Point, set its Receive Point to 7."
+      }
+    },
+    "name": "THAT'S THE IMPORTANCE... OF STAYING CONNECTED AS A TEAM.",
+    "type": "Event",
+    "rarity": "R",
+    "affiliation": "Nekoma",
+    "year": "",
+    "position": "",
+    "timing": "Receive"
+  },
+  "HV-P01-083-EN-UC": {
+    "id": "HV-P01-083-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "FIRST TEMPO... SYNCHRO ATTACK!",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-083-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Attack",
+        "effet": "Draw 1 card. If all of your characters are Nekoma characters, you may pay a total of 6 Guts from your court. If you do, one of your characters gets +3 Attack Point."
+      }
+    },
+    "name": "FIRST TEMPO... SYNCHRO ATTACK!",
+    "type": "Event",
+    "rarity": "UC",
+    "affiliation": "Nekoma",
+    "year": "",
+    "position": "",
+    "timing": "Attack"
+  },
+  "HV-P01-084-EN-C": {
+    "id": "HV-P01-084-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "A FULL APPROACH... IS WHAT GIVES SHOYO HIS WINGS.",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-084-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Set",
+        "effet": "You may use this skill if the character in your Set Area is \"Kenma Kozume\". Draw 1 card. The character in your Set Area gets +1 Set Point. In addition, during your opponent's next turn, they cannot play a \"MB\" character from their hand into their Attack Area."
+      }
+    },
+    "name": "A FULL APPROACH... IS WHAT GIVES SHOYO HIS WINGS.",
+    "type": "Event",
+    "rarity": "C",
+    "affiliation": "Nekoma",
+    "year": "",
+    "position": "",
+    "timing": "Set"
+  },
+  "HV-P01-085-EN-C": {
+    "id": "HV-P01-085-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Nobuteru Irihata",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-085-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Draw",
+        "effet": "Draw 1 card. You may pay a total of 8 Guts from your court to use the following skill. During this turn, whenever your Aoba Johsai characters enter the court, choose 1 parameter of that character. That parameter gets +1."
+      }
+    },
+    "name": "Nobuteru Irihata",
+    "type": "Event",
+    "rarity": "C",
+    "affiliation": "Aoba Johsai",
+    "year": "",
+    "position": "Head Coach",
+    "timing": "Draw"
+  },
+  "HV-P01-086-EN-UC": {
+    "id": "HV-P01-086-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "...BUT WHEN THE CONDUCTOR IS DIFFERENT ...THE WHOLE \"SOUND\" CHANGES.",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-086-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Draw / Receive",
+        "effet": "Add 1 Aoba Johsai character card from your Drop Area to your hand."
+      }
+    },
+    "name": "...BUT WHEN THE CONDUCTOR IS DIFFERENT ...THE WHOLE \"SOUND\" CHANGES.",
+    "type": "Event",
+    "rarity": "UC",
+    "affiliation": "Aoba Johsai",
+    "year": "",
+    "position": "",
+    "timing": "Draw / Receive"
+  },
+  "HV-P01-087-EN-C": {
+    "id": "HV-P01-087-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "SO DID I.☆",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-087-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Serve / Set",
+        "effet": "You may use this skill if the character in your Serve Area or Set Area is \"Toru Oikawa\". Draw 1 card. One of your characters named \"Toru Oikawa\" gets +1 Set Point. In addition, during your opponent's next turn, whenever they add a card to their hand except by drawing, they discard 1 card."
+      }
+    },
+    "name": "SO DID I.☆",
+    "type": "Event",
+    "rarity": "C",
+    "affiliation": "Aoba Johsai",
+    "year": "",
+    "position": "",
+    "timing": "Serve / Set"
+  },
+  "HV-P01-088-EN-C": {
+    "id": "HV-P01-088-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "YOU ARE A VERY GOOD TEAM. REMEMBER THAT.",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-088-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Receive",
+        "effet": "Draw up to 1 card. One of your Aoba Johsai characters gets +1 Receive Point. Then, if you have 3 or fewer cards in your hand, that character gets an additional +1 Receive Point."
+      }
+    },
+    "name": "YOU ARE A VERY GOOD TEAM. REMEMBER THAT.",
+    "type": "Event",
+    "rarity": "C",
+    "affiliation": "Aoba Johsai",
+    "year": "",
+    "position": "",
+    "timing": "Receive"
+  },
+  "HV-P01-089-EN-C": {
+    "id": "HV-P01-089-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Takeyuki Yamiji",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-089-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Draw / Receive",
+        "effet": "Look at the top 3 cards of your deck. Reveal up to 1 Fukurodani card from among them, and add it to your hand. Then, put the remaining cards on the bottom of your deck in any order."
+      }
+    },
+    "name": "Takeyuki Yamiji",
+    "type": "Event",
+    "rarity": "C",
+    "affiliation": "Fukurodani",
+    "year": "",
+    "position": "Head Coach",
+    "timing": "Draw / Receive"
+  },
+  "HV-P01-090-EN-UC": {
+    "id": "HV-P01-090-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "THAT MOMENT. IT'S ABOUT WHETHER YOU HAVE IT...OR YOU DON'T.",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-090-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Attack",
+        "effet": "Draw 1 card. One of your Fukurodani characters gets +1 Attack Point. If all of your characters are Fukurodani, during your opponent's next turn, when your opponent declares Lost for this set, draw cards until you have 7 cards in your hand."
+      }
+    },
+    "name": "THAT MOMENT. IT'S ABOUT WHETHER YOU HAVE IT...OR YOU DON'T.",
+    "type": "Event",
+    "rarity": "UC",
+    "affiliation": "Fukurodani",
+    "year": "",
+    "position": "",
+    "timing": "Attack"
+  },
+  "HV-P01-091-EN-C": {
+    "id": "HV-P01-091-EN-C",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "...YOU GUYS DON'T HAVE A MONOPOLY ON WORKING TOGETHER!",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-091-EN-C.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Receive",
+        "effet": "Draw 1 card. One of your Fukurodani characters gets +1 Receive Point. If the character in your Block Area is a Fukurodani character, you may send that character from your Block Area into the Drop Area to use the following skill. Your opponent gets -1 Offense Point from their Attack."
+      }
+    },
+    "name": "...YOU GUYS DON'T HAVE A MONOPOLY ON WORKING TOGETHER!",
+    "type": "Event",
+    "rarity": "C",
+    "affiliation": "Fukurodani",
+    "year": "",
+    "position": "",
+    "timing": "Receive"
+  },
+  "HV-P01-092-EN-UC": {
+    "id": "HV-P01-092-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "THIS YEAR IS SHAPING UP TO BE AN INTERESTING ONE.",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-092-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Receive",
+        "effet": "1/Turn Draw 1 card. Choose one of your characters. That character gets +1 Receive Point. Reveal the top card of your deck. If you have no characters in your court with the same Affiliation as the revealed card, the chosen character gets an additional +1 Receive Point. Then, put the revealed card on the bottom of your deck."
+      }
+    },
+    "name": "THIS YEAR IS SHAPING UP TO BE AN INTERESTING ONE.",
+    "type": "Event",
+    "rarity": "UC",
+    "affiliation": "",
+    "year": "",
+    "position": "",
+    "timing": "Receive"
+  },
+  "HV-P01-093-EN-UC": {
+    "id": "HV-P01-093-EN-UC",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "IT MATTERS NOT WHO IT IS-- WE ACCEPT ALL CHALLENGERS.",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-093-EN-UC.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Serve / Block / Attack",
+        "effet": "1/Turn Draw 1 card. Reveal the top card of your deck. If you have no characters in your court with the same Affiliation as the revealed card, choose 1 parameter of one of your characters. That parameter gets +1. During your opponent's next turn, they cannot play Event cards that can be played as Set or Attack. Put the revealed card on the bottom of your deck."
+      }
+    },
+    "name": "IT MATTERS NOT WHO IT IS-- WE ACCEPT ALL CHALLENGERS.",
+    "type": "Event",
+    "rarity": "UC",
+    "affiliation": "",
+    "year": "",
+    "position": "",
+    "timing": "Serve / Block / Attack"
+  },
+  "HV-PR-003-EN-P": {
+    "id": "HV-PR-003-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shoyo Hinata",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-003-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 1,
+        "setPoint": 0,
+        "attack": 2,
+        "trigger": "Enter Attack Area",
+        "effet": "You may discard 1 card to use this skill. This character gets +2 Attack Point."
+      }
+    },
+    "name": "Shoyo Hinata",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 1,
+    "block": 1,
+    "receive": 1,
+    "setPoint": 0,
+    "attack": 2,
+    "trigger": "Enter Attack Area"
+  },
+  "HV-PR-004-EN-P": {
+    "id": "HV-PR-004-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tobio Kageyama",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-004-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 3,
+        "block": 1,
+        "receive": 1,
+        "setPoint": 1,
+        "attack": 2,
+        "trigger": "Enter Set Area",
+        "effet": "You may pay 2 Guts to use this skill. Draw 1 card."
+      }
+    },
+    "name": "Tobio Kageyama",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "S",
+    "serve": 3,
+    "block": 1,
+    "receive": 1,
+    "setPoint": 1,
+    "attack": 2,
+    "trigger": "Enter Set Area"
+  },
+  "HV-PR-005-EN-P": {
+    "id": "HV-PR-005-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shoyo Hinata",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-005-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 3,
+        "receive": 3,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Shoyo Hinata",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 2,
+    "block": 3,
+    "receive": 3,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-PR-006-EN-P": {
+    "id": "HV-PR-006-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kotaro Bokuto",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-006-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 3,
+        "block": 3,
+        "receive": 2,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Kotaro Bokuto",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Fukurodani",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 3,
+    "block": 3,
+    "receive": 2,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-PR-007-EN-P": {
+    "id": "HV-PR-007-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Toru Oikawa",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-007-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 4,
+        "block": 2,
+        "receive": 0,
+        "setPoint": 2,
+        "attack": 1,
+        "effet": ""
+      }
+    },
+    "name": "Toru Oikawa",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Aoba Johsai",
+    "year": "3rd Year",
+    "position": "S",
+    "serve": 4,
+    "block": 2,
+    "receive": 0,
+    "setPoint": 2,
+    "attack": 1
+  },
+  "HV-PR-008-EN-P": {
+    "id": "HV-PR-008-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Hajime Iwaizumi",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-008-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 4,
+        "block": 1,
+        "receive": 4,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Hajime Iwaizumi",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Aoba Johsai",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 4,
+    "block": 1,
+    "receive": 4,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-PR-010-EN-P": {
+    "id": "HV-PR-010-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shoyo Hinata",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-010-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 3,
+        "receive": 4,
+        "setPoint": 0,
+        "attack": 2,
+        "effet": ""
+      }
+    },
+    "name": "Shoyo Hinata",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 2,
+    "block": 3,
+    "receive": 4,
+    "setPoint": 0,
+    "attack": 2
+  },
+  "HV-PR-011-EN-P": {
+    "id": "HV-PR-011-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kenma Kozume",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-011-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 3,
+        "setPoint": 2,
+        "attack": 1,
+        "effet": ""
+      }
+    },
+    "name": "Kenma Kozume",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Nekoma",
+    "year": "2nd Year",
+    "position": "S",
+    "serve": 1,
+    "block": 2,
+    "receive": 3,
+    "setPoint": 2,
+    "attack": 1
+  },
+  "HV-PR-012-EN-P": {
+    "id": "HV-PR-012-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Hinata · Kageyama",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-012-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 2,
+        "receive": 0,
+        "setPoint": 1,
+        "attack": 1,
+        "effet": "When you play this card, treat its card name as \"Shoyo Hinata\" or \"Tobio Kageyama\" instead of \"Hinata · Kageyama\". (The chosen name remains effective until the end of this turn. This card counts as one character when counting characters in your Court.)"
+      }
+    },
+    "name": "Hinata · Kageyama",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Karasuno",
+    "year": "1st Year / 1st Year",
+    "position": "MB / S",
+    "serve": 1,
+    "block": 2,
+    "receive": 0,
+    "setPoint": 1,
+    "attack": 1
+  },
+  "HV-PR-016-EN-P": {
+    "id": "HV-PR-016-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tsukishima · Yamaguchi",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-016-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 4,
+        "block": 3,
+        "receive": 0,
+        "setPoint": 0,
+        "attack": 0,
+        "effet": "When you play this card, treat its card name as \"Kei Tsukishima\" or \"Tadashi Yamaguchi\" instead of \"Tsukishima · Yamaguchi\". (The chosen name remains effective until the end of this turn. This card counts as one character when counting characters in your Court.)"
+      }
+    },
+    "name": "Tsukishima · Yamaguchi",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Karasuno",
+    "year": "1st Year / 1st Year",
+    "position": "MB / MB",
+    "serve": 4,
+    "block": 3,
+    "receive": 0,
+    "setPoint": 0,
+    "attack": 0
+  },
+  "HV-PR-017-EN-P": {
+    "id": "HV-PR-017-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kindaichi · Kunimi",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-017-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 2,
+        "receive": 0,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": "When you play this card, treat its card name as \"Yutaro Kindaichi\" or \"Akira Kunimi\" instead of \"Kindaichi · Kunimi\". (The chosen name remains effective until the end of this turn. This card counts as one character when counting characters in your Court.)"
+      }
+    },
+    "name": "Kindaichi · Kunimi",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Aoba Johsai",
+    "year": "1st Year / 1st Year",
+    "position": "MB / WS",
+    "serve": 2,
+    "block": 2,
+    "receive": 0,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-PR-018-EN-P": {
+    "id": "HV-PR-018-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ushijima · Goshiki",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-018-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 5,
+        "block": 0,
+        "receive": 0,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": "When you play this card, treat its card name as \"Wakatoshi Ushijima\" or \"Tsutomu Goshiki\" instead of \"Ushijima · Goshiki\". (The chosen name remains effective until the end of this turn. This card counts as one character when counting characters in your Court.)"
+      }
+    },
+    "name": "Ushijima · Goshiki",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Shiratorizawa",
+    "year": "3rd Year / 1st Year",
+    "position": "WS / WS",
+    "serve": 5,
+    "block": 0,
+    "receive": 0,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-PR-019-EN-P": {
+    "id": "HV-PR-019-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shoyo Hinata",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-019-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 2,
+        "receive": 4,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Shoyo Hinata",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Karasuno",
+    "year": "1st Year",
+    "position": "MB",
+    "serve": 2,
+    "block": 2,
+    "receive": 4,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-PR-020-EN-P": {
+    "id": "HV-PR-020-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kenma Kozume",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-020-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 3,
+        "block": 0,
+        "receive": 4,
+        "setPoint": 2,
+        "attack": 0,
+        "effet": ""
+      }
+    },
+    "name": "Kenma Kozume",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Nekoma",
+    "year": "2nd Year",
+    "position": "S",
+    "serve": 3,
+    "block": 0,
+    "receive": 4,
+    "setPoint": 2,
+    "attack": 0
+  },
+  "HV-PR-021-EN-P": {
+    "id": "HV-PR-021-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kotaro Bokuto",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-021-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 2,
+        "receive": 4,
+        "setPoint": 0,
+        "attack": 3,
+        "effet": ""
+      }
+    },
+    "name": "Kotaro Bokuto",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Fukurodani",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 2,
+    "block": 2,
+    "receive": 4,
+    "setPoint": 0,
+    "attack": 3
+  },
+  "HV-PR-022-EN-P": {
+    "id": "HV-PR-022-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Daichi Sawamura",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-022-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 0,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 0,
+        "trigger": "Enter Receive Area",
+        "effet": "If your opponent's Serve Offense Point or Attack Offense Point is 2 or less, you may use all of the following. ▶ A Pass 1. ▶ You may pay 1 Guts to use this skill. Draw 1 card."
+      }
+    },
+    "name": "Daichi Sawamura",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Karasuno",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 0,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 0,
+    "trigger": "Enter Receive Area"
+  },
+  "HV-PR-023-EN-P": {
+    "id": "HV-PR-023-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Yuki Shibayama",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-023-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 5,
+        "setPoint": 0,
+        "attack": 0,
+        "effet": "When a character named \"Lev Haiba\" enters your Attack Area, if this character is in your Receive Area, you may pay 2 Guts to use this skill. That character gets +1 Attack Point."
+      }
+    },
+    "name": "Yuki Shibayama",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Nekoma",
+    "year": "1st Year",
+    "position": "Li",
+    "serve": 1,
+    "block": 1,
+    "receive": 5,
+    "setPoint": 0,
+    "attack": 0
+  },
+  "HV-PR-024-EN-P": {
+    "id": "HV-PR-024-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Toru Oikawa",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-024-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 1,
+        "setPoint": 1,
+        "attack": 2,
+        "trigger": "Enter Set Area",
+        "effet": "You may pay 3 Guts to use this skill. This character gets +2 Set Point. Your opponent shuffles all cards from their hand into their deck, then draws 4 cards."
+      }
+    },
+    "name": "Toru Oikawa",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Aoba Johsai",
+    "year": "3rd Year",
+    "position": "S",
+    "serve": 1,
+    "block": 1,
+    "receive": 1,
+    "setPoint": 1,
+    "attack": 2,
+    "trigger": "Enter Set Area"
+  },
+  "HV-PR-025-EN-P": {
+    "id": "HV-PR-025-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kentaro Kyotani",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-025-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 2,
+        "receive": 2,
+        "setPoint": 0,
+        "attack": 2,
+        "trigger": "Enter Attack Area",
+        "effet": "If the character in your Set Area is \"Toru Oikawa\", you may pay 3 Guts to use this skill. This character gets +2 Attack Point. If your opponent has 3 or more cards in their hand, they discard 1 card."
+      }
+    },
+    "name": "Kentaro Kyotani",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Aoba Johsai",
+    "year": "2nd Year",
+    "position": "WS",
+    "serve": 2,
+    "block": 2,
+    "receive": 2,
+    "setPoint": 0,
+    "attack": 2,
+    "trigger": "Enter Attack Area"
+  },
+  "HV-PR-026-EN-P": {
+    "id": "HV-PR-026-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Yamato Sarukui",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-026-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 3,
+        "setPoint": 0,
+        "attack": 3,
+        "trigger": "Enter Receive Area",
+        "effet": "You may pay 4 Guts to use this skill. This character gets +4 Receive Point."
+      }
+    },
+    "name": "Yamato Sarukui",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Fukurodani",
+    "year": "3rd Year",
+    "position": "WS",
+    "serve": 1,
+    "block": 1,
+    "receive": 3,
+    "setPoint": 0,
+    "attack": 3,
+    "trigger": "Enter Receive Area"
+  },
+  "HV-PR-027-EN-P": {
+    "id": "HV-PR-027-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kenji Futakuchi",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-027-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 2,
+        "block": 2,
+        "receive": 0,
+        "setPoint": 0,
+        "attack": 3,
+        "trigger": "Enter Serve Area/Block Area/Attack Area",
+        "effet": "During your opponent's next turn, whenever they add a card to their hand except by drawing, they send the top 3 cards of their deck into their Drop Area."
+      }
+    },
+    "name": "Kenji Futakuchi",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Date Tech",
+    "year": "2nd Year",
+    "position": "WS",
+    "serve": 2,
+    "block": 2,
+    "receive": 0,
+    "setPoint": 0,
+    "attack": 3,
+    "trigger": "Enter Serve Area/Block Area/Attack Area"
+  },
+  "HV-PR-028-EN-P": {
+    "id": "HV-PR-028-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kenjiro Shirabu",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-028-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 1,
+        "block": 1,
+        "receive": 1,
+        "setPoint": 1,
+        "attack": 2,
+        "trigger": "Enter Set Area",
+        "effet": "You may pay 2 Guts to use this skill. Send up to 1 card from your opponent's Event Area into their Drop Area. During your opponent's next turn, whenever a character enters their Receive Area, that character gets -2 Receive Point."
+      }
+    },
+    "name": "Kenjiro Shirabu",
+    "type": "Character",
+    "rarity": "P",
+    "affiliation": "Shiratorizawa",
+    "year": "2nd Year",
+    "position": "S",
+    "serve": 1,
+    "block": 1,
+    "receive": 1,
+    "setPoint": 1,
+    "attack": 2,
+    "trigger": "Enter Set Area"
+  },
+  "HV-PR-029-EN-P": {
+    "id": "HV-PR-029-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "THEY'LL BE ONE MONSTER ...AND ANOTHER MONSTER.",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-029-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Draw",
+        "effet": "Add up to 1 \"Shoyo Hinata\" and up to 1 \"Tobio Kageyama\" from your Drop Area to your hand."
+      }
+    },
+    "name": "THEY'LL BE ONE MONSTER ...AND ANOTHER MONSTER.",
+    "type": "Event",
+    "rarity": "P",
+    "affiliation": "Karasuno",
+    "year": "",
+    "position": "",
+    "timing": "Draw"
+  },
+  "HV-PR-030-EN-P": {
+    "id": "HV-PR-030-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "THINK ABOUT IT...STARTING LIBERO FOR NEKOMA, \"THE KING OF DEFENSE\"? THERE'S NO BIGGER HONOR THAN THAT!",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-030-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Receive",
+        "effet": "1/Turn Nekoma characters in your Receive Area gets +2 Receive Point. If that character is \"Yuki Shibayama\", draw 1 card."
+      }
+    },
+    "name": "THINK ABOUT IT...STARTING LIBERO FOR NEKOMA, \"THE KING OF DEFENSE\"? THERE'S NO BIGGER HONOR THAN THAT!",
+    "type": "Event",
+    "rarity": "P",
+    "affiliation": "Nekoma",
+    "year": "",
+    "position": "",
+    "timing": "Receive"
+  },
+  "HV-PR-031-EN-P": {
+    "id": "HV-PR-031-EN-P",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "THAT MEANS EVERYBODY IS WATCHING YOU.",
+        "type": "Event",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-PR-031-EN-P.webp?raw=true",
+        "isHorizontal": false,
+        "timing": "Attack",
+        "effet": "Draw 1 card. One of your Fukurodani characters gets +1 Attack Point. If the character in your Set Area is \"Keiji Akaashi\" and the character in your Attack Area is \"Kotaro Bokuto\", during your opponent's next turn, whenever a character enters their Block Area as Center Blocker, that character gets -2 Block Point."
+      }
+    },
+    "name": "THAT MEANS EVERYBODY IS WATCHING YOU.",
+    "type": "Event",
+    "rarity": "P",
+    "affiliation": "Fukurodani",
+    "year": "",
+    "position": "",
+    "timing": "Attack"
   }
 }
