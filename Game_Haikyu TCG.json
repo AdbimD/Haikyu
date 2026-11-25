@@ -238,8 +238,8 @@
   },
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/AdbimD/Haikyu/refs/heads/main/haikyu-tcg-cards.json",
-    "cardBack": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Back.png?raw=true"
+    "cardBack": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Backgroung%20V2.png?raw=true"
   },
   "cardRotation": "0",
-  "defaultRessources.backgrounds": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Back.png?raw=true"
+  "defaultRessources.backgrounds": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Backgroung%20V2.png?raw=true"
 }
