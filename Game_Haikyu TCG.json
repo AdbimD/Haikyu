@@ -77,14 +77,14 @@
       ],
       "sections": {
         "customSections": [
-          "Serve",
-          "BlockSide",
+          "Event",
+          "BlockLeft",
           "BlockCenter",
+          "BlockRight",
+          "Serve",
           "Receive",
           "SetArea",
-          "Attack",
-          "Event",
-          "SetCards"
+          "Attack"
         ],
         "layout": {
           "direction": "column",
@@ -103,7 +103,19 @@
                   }
                 },
                 {
-                  "section": "SetCards",
+                  "section": "BlockLeft",
+                  "style": {
+                    "flex": "1"
+                  }
+                },
+                {
+                  "section": "BlockCenter",
+                  "style": {
+                    "flex": "1"
+                  }
+                },
+                {
+                  "section": "BlockRight",
                   "style": {
                     "flex": "1"
                   }
@@ -113,23 +125,11 @@
             {
               "direction": "row",
               "style": {
-                "flex": "2"
+                "flex": "1"
               },
               "content": [
                 {
                   "section": "Serve",
-                  "style": {
-                    "flex": "1"
-                  }
-                },
-                {
-                  "section": "BlockSide",
-                  "style": {
-                    "flex": "1"
-                  }
-                },
-                {
-                  "section": "BlockCenter",
                   "style": {
                     "flex": "1"
                   }
@@ -193,11 +193,6 @@
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
-          "BlockSide": {
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          },
           "BlockCenter": {
             "isHidden": "no",
             "height": "MEDIUM",
@@ -218,12 +213,17 @@
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
-          "SetCards": {
-            "isHidden": "yes",
+          "SetArea": {
+            "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
-          "SetArea": {
+          "BlockLeft": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "BlockRight": {
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
