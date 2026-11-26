@@ -1519,7 +1519,7 @@
     "attack": 0,
     "trigger": "Enter Serve Area"
   },
-  "HV-P01-033-EN": {
+  "HV-P01-033-EN-SR": {
     "id": "HV-P01-033-EN-SR",
     "isToken": false,
     "face": {
@@ -1533,13 +1533,13 @@
         "receive": 0,
         "setPoint": 1,
         "attack": 0,
-        "trigger": "Enter Serve Area",
-        "effet": "You may pay 1 Guts to use this skill. If you paid an Aoba Johsai card this way, your opponent shuffles all cards from their hand into their deck, then draws 6 cards."
+        "trigger": "Enter Serve Area/Set Area",
+        "effet": "You may discard 1 Aoba Johsai card to use this skill. Choose 1 parameter of this character. That parameter gets +1. If your opponent has 4 or more cards in their hand, they discard 1 card."
       }
     },
     "name": "Toru Oikawa",
     "type": "Character",
-    "rarity": "UC",
+    "rarity": "SR",
     "affiliation": "Aoba Johsai",
     "year": "3rd Year",
     "position": "S",
@@ -1548,7 +1548,7 @@
     "receive": 0,
     "setPoint": 1,
     "attack": 0,
-    "trigger": "Enter Serve Area"
+    "trigger": "Enter Serve Area/Set Area"
   },
   "HV-P01-034-EN-UC": {
     "id": "HV-P01-034-EN-UC",
