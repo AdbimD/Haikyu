@@ -1519,6 +1519,37 @@
     "attack": 0,
     "trigger": "Enter Serve Area"
   },
+  "HV-P01-033-EN": {
+    "id": "HV-P01-033-EN-SR",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Toru Oikawa",
+        "type": "Character",
+        "image": "https://github.com/AdbimD/Haikyu/blob/main/Card%20Database/HV-P01-033-EN-SR.webp?raw=true",
+        "isHorizontal": false,
+        "serve": 5,
+        "block": 0,
+        "receive": 0,
+        "setPoint": 1,
+        "attack": 0,
+        "trigger": "Enter Serve Area",
+        "effet": "You may pay 1 Guts to use this skill. If you paid an Aoba Johsai card this way, your opponent shuffles all cards from their hand into their deck, then draws 6 cards."
+      }
+    },
+    "name": "Toru Oikawa",
+    "type": "Character",
+    "rarity": "UC",
+    "affiliation": "Aoba Johsai",
+    "year": "3rd Year",
+    "position": "S",
+    "serve": 5,
+    "block": 0,
+    "receive": 0,
+    "setPoint": 1,
+    "attack": 0,
+    "trigger": "Enter Serve Area"
+  },
   "HV-P01-034-EN-UC": {
     "id": "HV-P01-034-EN-UC",
     "isToken": false,
