@@ -22,7 +22,7 @@
         "general": {
           "min": 40,
           "max": 40,
-          "maxPerCard": 4
+          "maxPerCard": 40
         },
         "categories": [
           {
